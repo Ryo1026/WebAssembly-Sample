@@ -1,0 +1,16 @@
+﻿.aui-nvr-ui-WebAssemblyController {
+    display: inline-block;
+    position: relative;
+}
+.aui-nvr-ui-WebAssemblyController video {
+    display: none;
+}
+.aui-nvr-ui-WebAssemblyController img {
+    display: none;
+}
+
+.aui-nvr-ui-WebAssemblyController .webGLCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

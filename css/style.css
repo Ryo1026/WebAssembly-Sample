@@ -1,0 +1,93 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.application * {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.application {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.application .displayarea {
+    flex: 1;
+    overflow: auto;
+}
+
+.application .controlarea {
+    width: 305px;
+    display: flex;
+}
+
+.application .controlarea .aui-nvr-ui-AppControlPanel {
+    padding: 10px 0px 10px 10px;
+    background-color: #EFEFFF;
+    flex: 1;
+}
+.application .controlarea .aui-nvr-ui-AppControlPanel .row {
+    padding: 2px 0;
+    display: inline-block;
+    margin-right: 5px;
+}
+.application .controlarea .aui-nvr-ui-AppControlPanel .row .caption {
+    min-width: 140px;
+    height: 24px;
+    line-height: 24px;
+    display: inline-block;
+    margin-right: 5px;
+}
+.application .controlarea .aui-nvr-ui-AppControlPanel .row .input-select,
+.application .controlarea .aui-nvr-ui-AppControlPanel .row .input-text {
+    width: 140px;
+    height: 22px;
+    padding: 0px 3px;
+    margin-right: 5px;
+}
+.application .controlarea .aui-nvr-ui-AppControlPanel .row .input-long-text {
+    width: 285px;
+    height: 22px;
+    padding: 0px 3px;
+    margin-right: 5px;
+}
+.application .controlarea .aui-nvr-ui-AppControlPanel .row .output-div {
+    width: 285px;
+    height: 285px;
+    padding: 0px 3px;
+    margin-right: 5px;
+    line-height: 12px;
+    overflow-y: auto;
+}
+.application .controlarea .aui-nvr-ui-AppControlPanel .row .output-div span {
+    display: block;
+}
+
+.application .controlarea .aui-nvr-ui-AppControlPanel .row .input-btn {
+    min-width: 140px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.application .controlarea .aui-nvr-ui-AppControlPanel .row .input-btn.rewind,
+.application .controlarea .aui-nvr-ui-AppControlPanel .row .input-btn.play,
+.application .controlarea .aui-nvr-ui-AppControlPanel .row .input-btn.pause {
+    min-width: 92px;
+}
+
+.application .controlarea .aui-nvr-ui-AppControlPanel .row select,
+.application .controlarea .aui-nvr-ui-AppControlPanel .row input {
+    font-size: 13px;
+}
+
+.application .hide {
+    display: none !important;
+}
